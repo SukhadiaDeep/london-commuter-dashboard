@@ -45,6 +45,33 @@ header {
     font-size: 0.9rem;
     font-weight: 700;
 }
+.status-section {
+    margin-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 20px;
+}
+.arrivals-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.arrival-row {
+    background: white;
+    color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 10px solid #0019a8; /* Tube Blue accent */
+}
+
+.time {
+    font-weight: bold;
+    color: #d32f2f; /* Alert Red */
+}
 
 /* Status colors */
 .good-service { background: #d4f7d4; color: #155724; }
